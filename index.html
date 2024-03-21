@@ -3,8 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Updock&display=swap"
+            rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+
         <title>Pocah</title>
     </head>
     <body>
@@ -23,7 +26,9 @@
                 <div id="nav-public-link">
                     <a href="#">Nosotros</a>
                     <a href="#">Productos</a>
-
+                </div>
+                <div>
+                    <span id="currentYear"></span>
                 </div>
 
             </div>
@@ -31,37 +36,43 @@
         </nav>
         <div id="body-box">
             <div id="prestentation">
-                <h2>What ist Pocah?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                <h2 class="border-style">What ist Pocah?</h2>
+                <p class="border-style">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Esse
                     magnam quos perferendis alias vero autem deleniti, iste est
                     itaque officia, enim deserunt possimus amet aliquam iusto!
                     Numquam consequatur debitis ex. Lorem ipsum dolor sit amet
                     consectetur, adipisicing elit. Esse magnam quos perferendis
                     alias vero autem deleniti, iste est itaque officia, enim
                     deserunt possimus amet aliquam iusto! Numquam consequatur
-                    debitis ex. Lorem ipsum dolor sit amet consectetur, adipisicing
-                    elit. Esse magnam quos perferendis alias vero autem deleniti,
+                    debitis ex. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing
+                    elit. Esse magnam quos perferendis alias vero autem
+                    deleniti,
                     iste est itaque officia, enim deserunt possimus amet aliquam
                     iusto! Numquam consequatur debitis ex.</p>
             </div>
-    
-            <div id="products-overview">
+
+            <div id="products-overview" class="border-style">
                 <h3>Best sellers</h2>
                 <div>
-                    <img src="./img/couple+flowers.jpg" alt="couple-flowers">
-                    <img src="./img/dragons.jpg" alt="dragons-photo">
-                    <img src="./img/basis.jpg" alt="basis-photo">
+                    <img src="./img/couple+flowers.jpg" alt="couple-flowers"
+                        class="oval-image border-style" id="muster-1">
+                    <img src="./img/basis.jpg" alt="basis-photo"
+                        class="oval-image border-style" id="muster-2">
+                    <img src="./img/dragons.jpg" alt="dragons-photo"
+                        class="oval-image border-style" id="muster-3">
                 </div>
             </div>
         </div>
-        
 
         <footer>
             <div>
                 <h3>Follow us</h3>
-                <a href="#">Instagram</a>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
+                <a href="https://www.instagram.com/pocah_cubanita/"
+                    target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/anaimad.ferrer"
+                    target="_blank">Facebook</a>
             </div>
             <div>
                 <h3>Contact us</h3>
@@ -69,6 +80,10 @@
                 <a href="#">Phone</a>
                 <a href="#">Adress</a>
             </div>
+            <div>
+                &copy; <span id="actual-yearID"></span> CDM
+            </div>
         </footer>
+        <script src="./index.js"></script>
     </body>
 </html>

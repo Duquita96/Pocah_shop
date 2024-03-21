@@ -20,12 +20,12 @@
 }
 
 #page-logo > img {
-  width: 10vw;
+  width: 18vw;
+  height: auto;
   max-width: 250px;
 }
 
 #nav-link-box {
-  /* background-color: aqua; */
   display: grid;
   width: 80%;
 }
@@ -34,7 +34,6 @@
   display: flex;
   flex-direction: row;
   justify-content: right;
-background-color: blue;
 }
 
 h1 {
@@ -56,12 +55,30 @@ h3 {
 }
 
 #products-overview,
-footer,
 p,
-h2 {
+h2, 
+footer {
   padding: 5%;
   background-color: #f2eff6;
-  border-radius: 10px;
-  border: 3px solid #b181ba;
 }
 
+.oval-image {
+  width: 20vw;
+  height: auto;
+  object-fit: cover;
+}
+
+#products-overview > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.border-style{
+  border-color: #b181ba;
+  border-radius: 10px;
+  border-style: outset;
+  border-width: 5px;
+  border-color: #b181ba;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+}
